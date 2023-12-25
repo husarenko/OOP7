@@ -341,8 +341,6 @@ namespace Magaz.Logic
                 Console.WriteLine($"Помилка збереження в файл: {ex.Message}");
             }
         }
-
-        // Додаємо метод для збереження в файл *.json
         public void SaveToJson(string path)
         {
             try
@@ -356,8 +354,6 @@ namespace Magaz.Logic
                 Console.WriteLine($"Помилка збереження в файл: {ex.Message}");
             }
         }
-
-        // Додаємо метод для читання з файлу *.csv
         public void LoadFromCsv(string path)
         {
             try
@@ -386,8 +382,6 @@ namespace Magaz.Logic
                 Console.WriteLine($"Помилка читання з файлу: {ex.Message}");
             }
         }
-
-        // Додаємо метод для читання з файлу *.json
         public void LoadFromJson(string path)
         {
             try
