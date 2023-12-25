@@ -1,21 +1,21 @@
-##Лабораторна робота з OOП №7
+## Лабораторна робота з OOП №7
 
-#Тема: Saving and loading of objects. Serialization/ Deserialization
+# Тема: Saving and loading of objects. Serialization/ Deserialization
 
-##Опис методів:
+## Опис методів:
 
-#SaveToCsv
+# SaveToCsv
 
 - Серіалізує об'єкти автомобілів у рядки та зберігає їх у файл формату CSV.
 
-#SaveToJson
+# SaveToJson
 
 - Серіалізує список автомобілів у форматі JSON та зберігає у файл.
 
-#LoadFromCsv 
+# LoadFromCsv 
 
 - Зчитує дані про автомобілі з файлу формату CSV та додає їх до списку автомобілів.
 
-#LoadFromJson
+# LoadFromJson
 
 - Зчитує дані про автомобілі з файлу формату JSON та замінює поточний список автомобілів прочитаним списком.
